@@ -60,35 +60,35 @@ const Footer = () => {
               target="_blank"
               className="border border-gray-300 p-2 rounded-full aspect-square text-gray-700 transition-all duration-500 hover:text-blue-600 hover:border-blue-600 focus-within:outline-0 focus-within:text-blue-600 focus-within:border-blue-600"
             >
-              <img src={github} alt="github" />
+              <img src={github} alt="github" loading="lazy"  />
             </a>
             <a
               href="https://www.youtube.com/channel/UCE67lrxSyV97KVOOqOtIdrQ"
               target="_blank"
               className="border border-gray-300 p-2 rounded-full aspect-square text-gray-700 transition-all duration-500 hover:text-blue-600 hover:border-blue-600 focus-within:outline-0 focus-within:text-blue-600 focus-within:border-blue-600"
             >
-              <img src={youtube} alt="YouTube" />
+              <img src={youtube} alt="YouTube" loading="lazy"  />
             </a>
             <a
               href="https://www.linkedin.com/company/nakuja-project/"
               target="_blank"
               className="border border-gray-300 p-2 rounded-full aspect-square text-gray-700 transition-all duration-500 hover:text-blue-600 hover:border-blue-600 focus-within:outline-0 focus-within:text-blue-600 focus-within:border-blue-600"
             >
-              <img src={linkedin} alt="LinkedIn" />
+              <img src={linkedin} alt="LinkedIn" loading="lazy" />
             </a>
             <a
               href="https://twitter.com/Nakuja6"
               target="_blank"
               className="border border-gray-300 p-2 rounded-full aspect-square text-gray-700 transition-all duration-500 hover:text-blue-600 hover:border-blue-600 focus-within:outline-0 focus-within:text-blue-600 focus-within:border-blue-600"
             >
-              <img src={twitter} alt="Twitter" />
+              <img src={twitter} alt="Twitter" loading="lazy" />
             </a>
             <a
               href="https://www.instagram.com/nakujaproject/"
               target="_blank"
               className="border border-gray-300 p-2 rounded-full aspect-square text-gray-700 transition-all duration-500 hover:text-blue-600 hover:border-blue-600 focus-within:outline-0 focus-within:text-blue-600 focus-within:border-blue-600"
             >
-              <img src={instagram} alt="Insta" />
+              <img src={instagram} alt="Insta" loading="lazy"/>
             </a>
           </div>
         </div>

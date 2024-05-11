@@ -151,6 +151,7 @@ const Rocket = () => {
                       src={rocket.image}
                       alt={`${rocket.name} Image`}
                       className="w-full h-auto object-cover rounded-lg"
+                      loading="lazy"
                     />
                   )}
                   {rocket.image1 && (
@@ -158,6 +159,7 @@ const Rocket = () => {
                       src={rocket.image1}
                       alt={`${rocket.name} Image 1`}
                       className="w-full h-auto object-cover rounded-lg"
+                      loading="lazy"
                     />
                   )}
                   {rocket.image2 && (
@@ -165,6 +167,7 @@ const Rocket = () => {
                       src={rocket.image2}
                       alt={`${rocket.name} Image 2`}
                       className="w-full h-auto object-cover rounded-lg"
+                      loading="lazy"
                     />
                   )}
                 </div>

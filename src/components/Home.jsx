@@ -105,6 +105,7 @@ const Home = () => {
                 <img
                   src={globe}
                   className="relative h-[20px] w-[20px] md:h-[34px] md:w-[34px]"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -161,6 +162,7 @@ const Home = () => {
                 <img
                   src={people}
                   className="relative h-[24px] w-[23px] md:h-[34px] md:w-[34px]"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -209,6 +211,7 @@ const Home = () => {
                 <img
                   src={building}
                   className="relative h-[20px] w-[20px] md:h-[34px] md:w-[34px]"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -256,6 +259,7 @@ const Home = () => {
                 <img
                   src={partnership}
                   className="relative h-[20px] w-[20px] md:h-[34px] md:w-[34px]"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -303,6 +307,7 @@ const Home = () => {
                   className="h-9"
                   src="https://ksa.go.ke/assets/images/ksa-logo-new.png-web2-207x165.png"
                   alt="Client logo"
+                  loading="lazy"
                 />
               </a>
               <a href="#" className="flex justify-center items-center">
@@ -310,6 +315,7 @@ const Home = () => {
                   className="h-9"
                   src="https://www.jkuat.ac.ke/directorates/dipuil/wp-content/uploads/2015/11/jkuat-logo.png"
                   alt="Client logo"
+                  loading="lazy"
                 />
               </a>
 

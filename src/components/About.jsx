@@ -54,12 +54,12 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div className="pb-5 pr-9 relative overflow-hidden rounded-2xl">
               <div className="relative">
-                <img className="w-full object-contain" src={thumbnail} alt="" />
+                <img className="w-full object-contain" src={thumbnail} alt="" loading="lazy" />
                 <button
                   className="absolute top-1/2 left-1/2 z-10 flex h-[78px] w-[78px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-green-500 animate-pulse"
                   onClick={() => toggleVideoVisibility(0)}
                 >
-                  <img src={playicon} alt="" />
+                  <img src={playicon} alt="" loading="lazy" />
                 </button>
               </div>
 
@@ -114,6 +114,7 @@ const About = () => {
                 src={N2_interns}
                 alt="N2 interns"
                 className="block rounded-lg"
+                loading="lazy"
               />
               <small className="text-sm italic text-gray-400">
                 Visit to Broglio Space Center in April 2022 supported by Kenya
@@ -185,12 +186,13 @@ const About = () => {
                   className="w-full object-contain"
                   src={thumbnail1}
                   alt=""
+                  loading="lazy"
                 />
                 <button
                   className="absolute top-1/2 left-1/2 z-10 flex h-[78px] w-[78px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-green-500 animate-pulse"
                   onClick={() => toggleVideoVisibility(1)}
                 >
-                  <img src={playicon} alt="" />
+                  <img src={playicon} alt="" loading="lazy"  />
                 </button>
               </div>
 
@@ -211,12 +213,13 @@ const About = () => {
                   className="w-full object-contain"
                   src={thumbnail2}
                   alt=""
+                  loading="lazy"
                 />
                 <button
                   className="absolute top-1/2 left-1/2 z-10 flex h-[78px] w-[78px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-green-500 animate-pulse"
                   onClick={() => toggleVideoVisibility(2)}
                 >
-                  <img src={playicon} alt="" />
+                  <img src={playicon} alt="" loading="lazy" />
                 </button>
               </div>
 

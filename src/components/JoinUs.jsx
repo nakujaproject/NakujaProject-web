@@ -16,6 +16,7 @@ const JoinUs = () => {
             src="https://nakujaproject.com/image/gallery/dryrun.webp"
             alt="image"
             className="mt-4 rounded-lg"
+            loading="lazy"
           />
         </div>
         <div className="mt-12">

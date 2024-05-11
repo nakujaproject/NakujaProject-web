@@ -59,6 +59,7 @@ const BlogDetail = () => {
             src={issue.user.avatar_url}
             alt={issue.user.login}
             className="w-8 h-8 rounded-full mr-2"
+            loading="lazy"
           />
           <h3 className="text-sm font-bold">{issue.user.login}</h3>
         </div>
@@ -77,6 +78,7 @@ const BlogDetail = () => {
                     src={comment.user.avatar_url}
                     alt={comment.user.login}
                     className="w-8 h-8 rounded-full mr-2"
+                    loading="lazy"
                   />
                   <h3 className="text-sm font-bold">{comment.user.login}</h3>
                 </div>

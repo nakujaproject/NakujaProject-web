@@ -5,12 +5,13 @@ const TeamCard = ({ name, position, education, image }) => (
   <div className="flex flex-col rounded-lg shadow-sm bg-white overflow-hidden hover:shadow-md hover:border border-blue-500">
     <div className="flex justify-center">
       {image ? (
-        <img className="w-32 h-32 rounded-full" src={image} alt={name} />
+        <img className="w-32 h-32 rounded-full" src={image} alt={name} loading="lazy" />
       ) : (
         <img
           className="w-32 h-32 rounded-full border hover:border-blue-500"
           src="https://www.mountsinai.on.ca/wellbeing/our-team/team-images/person-placeholder/image"
           alt="Placeholder"
+          loading="lazy"
         />
       )}
     </div>
