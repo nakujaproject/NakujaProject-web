@@ -11,7 +11,7 @@ const BlogDetail = () => {
     const fetchIssue = async () => {
       try {
         const response = await fetch(
-          `https://api.github.com/repos/nakujaproject/internship2024/issues/${issueNumber}`,
+          `https://api.github.com/repos/nakujaproject/NakujaProject-web/issues/${issueNumber}`,
         );
         const data = await response.json();
         setIssue(data);
@@ -23,7 +23,7 @@ const BlogDetail = () => {
     const fetchComments = async () => {
       try {
         const response = await fetch(
-          `https://api.github.com/repos/nakujaproject/internship2024/issues/${issueNumber}/comments`,
+          `https://api.github.com/repos/nakujaproject/NakujaProject-web/issues/${issueNumber}/comments`,
         );
         const data = await response.json();
         setComments(data);
