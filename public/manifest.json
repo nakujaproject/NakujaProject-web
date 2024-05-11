@@ -1,0 +1,22 @@
+{
+  "name": "Nakuja project",
+  "short_name": "NakujaProject",
+  "description": "Nakuja project aims to build a liquid-fuel rocket to bring small satellites into the orbit.We are based in Jomo Kenyatta University of Agriculture and Technology (JKUAT) in Kenya.",
+  "start_url": "../index.html",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192"
+    }
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
