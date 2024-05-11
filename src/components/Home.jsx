@@ -5,8 +5,8 @@ import ImageCollage from "./ImageCollage";
 import Roadmap from "./Roadmap";
 
 const Home = () => {
-  // Intership application link here
-  const intership = "https://www.google.com";
+
+  const intership = "https://github.com/nakujaproject/NakujaProject-web/issues/3";
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-transparent to-transparent pb-12 pt-20 sm:pb-16 sm:pt-32 lg:pb-24 xl:pb-32 xl:pt-40">
