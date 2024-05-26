@@ -24,7 +24,7 @@ const BlogCard = ({ issue }) => {
               {issue.labels.map((label) => (
                 <span
                   key={label.id}
-                  className="text-sm text-blue-500 uppercase mr-2 mb-2"
+                  className="text-sm text-blue-500 mr-2 mb-2"
                 >
                   #{label.name}
                 </span>

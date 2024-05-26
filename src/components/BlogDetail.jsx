@@ -50,7 +50,7 @@ const BlogDetail = () => {
               key={label.id}
               className="text-sm text-blue-500 uppercase mr-2 mb-2"
             >
-              {label.name}
+              #{label.name}
             </p>
           ))}
         </div>
